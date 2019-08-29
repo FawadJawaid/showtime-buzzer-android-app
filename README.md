@@ -1,4 +1,4 @@
-# Showtime Buzzer - Android App
+# ShowTime Buzzer - Android App
 
 ## Project Overview
 This a complete **Software Engineering/ Object Oriented Analysis and Design (Mobile Application Development)** project so all the principles and methodoligies of software engineering have been followed. Project domain model, class diagram, code along with proper documentation can be seen.
