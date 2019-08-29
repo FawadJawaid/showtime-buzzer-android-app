@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swaf.showtimebuzzer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.swaf.showtimebuzzer.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.swaf.showtimebuzzer.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.swaf.showtimebuzzer.SearchActivity"
+            android:label="@string/Search" >
+        </activity>
+        <activity
+            android:name="com.swaf.showtimebuzzer.WeekChannelActivity"
+            android:label="@string/selChannels" >
+        </activity>
+        <activity
+            android:name="com.swaf.showtimebuzzer.WeekShowsActivity"
+            android:label="@string/title_activity_today_activity1" >
+        </activity>
+        <activity
+            android:name="com.swaf.showtimebuzzer.MyCollectionActivity"
+            android:label="@string/coll" >
+        </activity>
+        <activity
+            android:name="com.swaf.showtimebuzzer.SetTimeActivity"
+            android:label="@string/title_activity_set_time" >
+        </activity>
+        <activity
+            android:name="com.swaf.showtimebuzzer.AlarmtoneActivity"
+            android:label="@string/setalarmtone" >
+        </activity>
+        <activity
+            android:name="com.swaf.showtimebuzzer.RingToneList"
+            android:label="@string/setringtone" >
+        </activity>
+        <activity android:name="com.swaf.showtimebuzzerDB.APlus" >
+        </activity>
+        <activity android:name="com.swaf.showtimebuzzerDB.Channels" >
+        </activity>
+        <activity android:name="com.swaf.showtimebuzzerDB.Atv" >
+        </activity>
+        <activity android:name="com.swaf.showtimebuzzerDB.GeoKahani" >
+        </activity>
+        <activity android:name="com.swaf.showtimebuzzerDB.Hum2" >
+        </activity>
+        <activity android:name="com.swaf.showtimebuzzerDB.PtvHome" >
+        </activity>
+        <activity android:name="com.swaf.showtimebuzzerDB.Urdu1" >
+        </activity>
+        
+        <activity
+            android:name="com.swaf.showtimebuzzer.AlarmActivity"
+            android:label="@string/title_activity_alarm" >
+        </activity>
+        <receiver android:name="com.swaf.showtimebuzzer.AlarmReciever" ></receiver>
+   <service android:name=".AlarmNotify" android:enabled="true"></service>
+        </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShowTime Buzzer</string>
+    <string name="action_settings">Settings</string>
+    <string name="Splash">Splash Activity</string>
+    <string name="str">Icon Name</string>
+    <string name="Developer">Developed By</string>
+    <string name="Search">Search</string>
+    <string name="selChannels">Select Channel</string>
+    <string name="title_activity_today_activity1">TodayActivity1</string>
+    <string name="Collection">Subscribed Shows</string>
+    <string name="title_activity_set_time">SetTimeActivity</string>
+    <string name="week">   This Week</string>
+    <string name="coll">My Collection</string>
+    <string name="exit">Exit</string>
+    <string name="alarmtone">Set Alarmtone</string>
+    <string name="update">Update</string>
+    <string name="volume">Set Volume</string>
+    <string name="ringtone">Set Ringtone</string>
+    <string name="show">Shows</string>
+    <string name="weekly">Shows This Week</string>
+    <string name="setalarmtone">Alarmtone Settings</string>
+    <string name="setringtone">Select Ringtone</string>
+    <string name="Grid">Grid</string>
+    <string name="FChannel">By Channel</string>
+    <string name="FShow">By Show</string>
+    <string name="dialhead">You want to be alarmed:</string>
+    <string name="dialrad1">At Exact On-Air Time</string>
+    <string name="dialrad2">Minutes Before On-Air Time:</string>
+    <string name="title_activity_settime">Settime</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Alreadysub">You Have Already Subscribed For This Show !!!</string>
+    <string name="Unsub">Unsubscribe</string>
+    <string name="Can">Cancel</string>
+    <string name="Sub">Subscribe</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="alrmimg">Alarm Image</string>
+
+</resources>
